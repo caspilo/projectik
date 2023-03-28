@@ -1,2 +1,2 @@
-java.configuration.ApplicationConfig=org.springframework.boot.context.properties.ConfigurationProperties
-java.scrapper.ScrapperApplication=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration
+configuration.ApplicationConfig=org.springframework.boot.context.properties.ConfigurationProperties
+scrapper.ScrapperApplication=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration

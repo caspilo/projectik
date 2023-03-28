@@ -1,5 +1,3 @@
-java\scrapper\ScrapperApplication.class
 META-INF\spring.components
 META-INF\spring-configuration-metadata.json
 com\projectik\App.class
-java\configuration\ApplicationConfig.class

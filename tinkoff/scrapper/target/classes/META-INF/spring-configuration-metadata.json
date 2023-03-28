@@ -2,15 +2,15 @@
   "groups": [
     {
       "name": "app",
-      "type": "java.configuration.ApplicationConfig",
-      "sourceType": "java.configuration.ApplicationConfig"
+      "type": "configuration.ApplicationConfig",
+      "sourceType": "configuration.ApplicationConfig"
     }
   ],
   "properties": [
     {
       "name": "app.test",
       "type": "java.lang.String",
-      "sourceType": "java.configuration.ApplicationConfig"
+      "sourceType": "configuration.ApplicationConfig"
     }
   ],
   "hints": []
