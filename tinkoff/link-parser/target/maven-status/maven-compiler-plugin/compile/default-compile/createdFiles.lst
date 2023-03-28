@@ -1,1 +1,7 @@
-com\projectik\App.class
+app\LinkParserController.class
+backend\StackOverflowURL.class
+configuration\ApplicationConfig.class
+backend\BackendLinkParser.class
+backend\GitHubURL.class
+backend\Links.class
+app\LPApplication.class

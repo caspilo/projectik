@@ -1,1 +1,7 @@
-D:\учеба\Тинькоф\MyProject\tinkoff\link-parser\src\main\java\com\projectik\App.java
+D:\учеба\Тинькоф\MyProject\tinkoff\link-parser\src\main\java\app\LPApplication.java
+D:\учеба\Тинькоф\MyProject\tinkoff\link-parser\src\main\java\backend\BackendLinkParser.java
+D:\учеба\Тинькоф\MyProject\tinkoff\link-parser\src\main\java\configuration\ApplicationConfig.java
+D:\учеба\Тинькоф\MyProject\tinkoff\link-parser\src\main\java\backend\GitHubURL.java
+D:\учеба\Тинькоф\MyProject\tinkoff\link-parser\src\main\java\backend\Links.java
+D:\учеба\Тинькоф\MyProject\tinkoff\link-parser\src\main\java\backend\StackOverflowURL.java
+D:\учеба\Тинькоф\MyProject\tinkoff\link-parser\src\main\java\app\LinkParserController.java
