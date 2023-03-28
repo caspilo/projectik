@@ -1,2 +1,4 @@
 configuration.ApplicationConfig=org.springframework.boot.context.properties.ConfigurationProperties
 scrapper.ScrapperApplication=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration
+scrapper.ScrapperLinksController=org.springframework.stereotype.Component
+scrapper.ScrapperTgChatController=org.springframework.stereotype.Component
