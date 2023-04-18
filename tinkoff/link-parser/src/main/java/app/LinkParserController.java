@@ -16,5 +16,4 @@ public class LinkParserController {
         BackendLinkParser linkParser = new BackendLinkParser(url);
         return "<html><p>URL: " + url + "</p><p>Data:"+linkParser.getData()+"</p></html>";
     }
-
 }
