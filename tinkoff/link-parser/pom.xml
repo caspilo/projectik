@@ -43,6 +43,11 @@
 
     <dependency>
       <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-webflux</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
 
@@ -71,14 +76,19 @@
     </dependency>
 
     <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-web</artifactId>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <optional>true</optional>
     </dependency>
-
       <dependency>
-          <groupId>org.projectlombok</groupId>
-          <artifactId>lombok</artifactId>
-          <version>1.18.24</version>
+          <groupId>com.intellij</groupId>
+          <artifactId>annotations</artifactId>
+          <version>9.0.4</version>
+      </dependency>
+      <dependency>
+          <groupId>com.github.pengrad</groupId>
+          <artifactId>java-telegram-bot-api</artifactId>
+          <version>6.6.0</version>
       </dependency>
   </dependencies>
 
@@ -96,6 +106,14 @@
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+        </plugin>
+        <plugin>
+          <groupId>org.apachex.maven.plugins</groupId>
+          <artifactId>maven-failsafe-plugin</artifactId>
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
