@@ -1,3 +1,5 @@
 app.LPApplication=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration
+app.LinkParserApplication=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration
 app.LinkParserController=org.springframework.stereotype.Component
+client.WebBClient=org.springframework.stereotype.Component
 configuration.ApplicationConfig=org.springframework.boot.context.properties.ConfigurationProperties

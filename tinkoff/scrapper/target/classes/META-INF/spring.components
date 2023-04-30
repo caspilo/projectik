@@ -1,4 +1,16 @@
+clientBeans.ClientConfiguration=org.springframework.stereotype.Component
 configuration.ApplicationConfig=org.springframework.boot.context.properties.ConfigurationProperties
+configuration.JdbcAccessConfiguration=org.springframework.stereotype.Component
+configuration.JooqAccessConfiguration=org.springframework.stereotype.Component
+configuration.JpaAccessConfiguration=org.springframework.stereotype.Component
+dbServices.ChatLogic=org.springframework.stereotype.Component
+dbServices.LinkLogic=org.springframework.stereotype.Component
+entity.Chat=jakarta.persistence.Entity,jakarta.persistence.Table
+entity.Link=jakarta.persistence.Entity,jakarta.persistence.Table
+repositories.JdbcChatRepository=org.springframework.data.repository.Repository
+repositories.JdbcLinkRepository=org.springframework.data.repository.Repository
+scheduled.LinkUpdaterScheduler=org.springframework.stereotype.Component
 scrapper.ScrapperApplication=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration
+scrapper.ScrapperDataBaseController=org.springframework.stereotype.Component
 scrapper.ScrapperLinksController=org.springframework.stereotype.Component
 scrapper.ScrapperTgChatController=org.springframework.stereotype.Component
