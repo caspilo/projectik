@@ -1,7 +1,10 @@
 app\LinkParserController.class
 backend\StackOverflowURL.class
+META-INF\spring.components
 configuration\ApplicationConfig.class
 backend\BackendLinkParser.class
 backend\GitHubURL.class
 backend\Links.class
+META-INF\spring-configuration-metadata.json
 app\LPApplication.class
+backend\App.class
