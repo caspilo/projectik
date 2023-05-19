@@ -1,5 +1,12 @@
+dto_classes\LinkResponse.class
+scrapper\ScrapperTgChatController.class
+dto_classes\ApiErrorResponse.class
 META-INF\spring.components
+configuration\ApplicationConfig.class
+scrapper\ScrapperLinksController.class
+dto_classes\RemoveLinkRequest.class
 scrapper\ScrapperApplication.class
+dto_classes\ListLinksResponse.class
 META-INF\spring-configuration-metadata.json
 com\projectik\App.class
-configuration\ApplicationConfig.class
+dto_classes\AddLinkRequest.class

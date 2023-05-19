@@ -1,4 +1,8 @@
+dto_classes\ApiErrorResponse.class
 META-INF\spring.components
+configuration\ApplicationConfig.class
+dto_classes\DataClass.class
+bot\BotController.class
 META-INF\spring-configuration-metadata.json
 bot\BotApplication.class
-configuration\ApplicationConfig.class
+backend\App.class

@@ -1,2 +1,6 @@
 bot.BotApplication=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration
+bot.BotController=org.springframework.stereotype.Component
 configuration.ApplicationConfig=org.springframework.boot.context.properties.ConfigurationProperties
+configuration.RabbitMQConfiguration=org.springframework.stereotype.Component
+configuration.TelegramBotConfiguration=org.springframework.stereotype.Component
+services.ScrapperQueueProducer=org.springframework.stereotype.Component
