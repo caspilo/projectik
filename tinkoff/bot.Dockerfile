@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM openjdk:19
 
 COPY bot/target/bot-1.0.jar app.jar
 

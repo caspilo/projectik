@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM openjdk:19
 
 COPY scrapper/target/scrapper-1.0.jar app.jar
 
